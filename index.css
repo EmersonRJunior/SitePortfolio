@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+}
+main{
+    margin: 07%;
+    font-family: 'Oswald', sans-serif;
+}
+footer{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.divheader1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 40, 40);
+    height: 40px;
+    border-radius: 15px 15px 0 0;
+}
+.dh1link{
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    font-size: 25px;
+    width: 120px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 0 15px;
+}
+.divheader2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 136, 0);
+    border-radius: 0 0 15px 15px;
+    justify-content: center;
+    align-items: center;
+}
+.dh2titulo{
+    margin: 0;
+    padding: 0;
+    font-size: 55px;
+    letter-spacing: 7px;
+}
+.dh2nome{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 7px;
+}
+.imgfundo1{
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 30%;
+    border-radius: 4px;
+}
+.imgsobre{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+.imghomem{
+    width: 500px;
+}
+em{
+    position: relative;
+    right: 50px;
+}
+
+
+.divfooter1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 136, 0);
+    border-radius: 15px 15px 0 0;
+}
+.divfooter2{
+    background-color: rgb(148, 40, 40);
+    border-radius: 0 0 15px 15px;
+}
+.footercontato{
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+}
+.footerlink{
+    display: inline-block;
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 5px 20px;
+}
+.footercell{
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 5px 20px;
+    position: relative;
+    bottom: 5px;
+}
